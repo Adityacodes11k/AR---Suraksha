@@ -50,6 +50,37 @@ The proposed workflow is:
 - 🖥️ Admin dashboard for records and results
 - 📜 QR-based certificate verification
 
+## 🖥️ UI / Solution Screens
+
+The following screens are the **solution/UI concept shown in the team's SC**. They communicate the intended product experience; they are not being presented as proof that every screen is already implemented.
+
+### 1. Worker Home & Language Selection
+The worker-facing home screen provides language selection, safety modules, progress, certificates, emergency guidance, settings/offline access, and QR certificate verification.
+
+![Worker Home](screenshots/worker-home.webp)
+
+### 2. Admin Compliance Dashboard
+The compliance view presents centralized worker records, site/unit, training module, quiz score, and CSV export functionality.
+
+![Admin Dashboard](screenshots/admin-dashboard.webp)
+
+### 3. Digital Certificate
+The proposed certificate screen shows competency details, approved modules, issue date, a UUID/QR verification element, and PDF download/verification actions.
+
+![Digital Certificate](screenshots/digital-certificate.webp)
+
+### 4. AR Gas-Leak Training Scenario
+The AR training concept demonstrates a methane-leak hazard, simulated AR node, distance information, immediate-action feedback, score, module completion, and certificate access.
+
+![AR Training](screenshots/ar-training.webp)
+
+### 5. Offline-First Training Home
+The offline-ready worker experience highlights Fire, Gas Leak and PPE modules, progress tracking, certificates, emergency guidance, settings/offline support, and certificate verification.
+
+![Offline Training](screenshots/offline-training.webp)
+
+> **Note:** These UI screens are concept/prototype representations from the SC. The repository's implementation status remains explicitly documented below.
+
 ## 🏗️ Technical Architecture
 
 ```text
@@ -152,15 +183,19 @@ AR---Suraksha/
 │   ├── project-overview.md
 │   ├── research-and-references.md
 │   └── implementation-roadmap.md
+├── screenshots/
+│   ├── worker-home.webp
+│   ├── admin-dashboard.webp
+│   ├── digital-certificate.webp
+│   ├── ar-training.webp
+│   ├── offline-training.webp
+│   └── README.md
 ├── mobile-app/
 │   └── README.md
 ├── backend/
 │   └── README.md
 ├── database/
 │   └── README.md
-├── assets/
-│   ├── ui/
-│   └── diagrams/
 └── demo/
     └── README.md
 ```
